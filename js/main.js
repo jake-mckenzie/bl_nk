@@ -4,22 +4,6 @@ $(document).ready(function() {
   setTimeout(section1Panels, 3000);
 });
 
-//      contact form animations
-$(function() {
-  $('#contact-us').click(function() {
-    $('#contact-area').fadeToggle();
-  });
-
-  $(document).mouseup(function(e) {
-    var container = $('#contact-area');
- // if the target of the click isn't the container nor a descendant of the container
-    if (!container.is(e.target)&&container.has(e.target).length === 0)
-    {
-      container.fadeOut();
-    }
-  });
-});
-
 $(function() {
   $('#btm-btn').click(function() {
     $('#contact-area').fadeToggle();

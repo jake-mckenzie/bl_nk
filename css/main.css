@@ -17,7 +17,24 @@ body {
   display: none;
 }
 
+
 /** HEADER  STUFF **/
+
+.headerFadeAnim {
+  -webkit-animation: headerFade 1.5s;
+}
+
+.logoFadeAnim {
+  -webkit-animation: logoFade 1.25s;
+}
+
+.logoFade2Anim {
+  -webkit-animation: logoFade2 1.25s;
+}
+
+.logoFade3Anim {
+  -webkit-animation: logoFade3 1.25s;
+}
 
 #navbarHeader {
   height: 100vh;
@@ -323,103 +340,6 @@ h1 {
   color: rgba(0, 0, 0, 0.8);
   font-size: 19px;
 }
-
-/** CONTACT US BUTTON **/
-
-
-#contact-us {
-  position: fixed;
-  bottom: 27.5px;
-  left: 20px;
-  background: rgba(0, 0, 0, 0.8);
-  width: 50px;
-  height: 50px;
-  text-decoration: none;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
-  border: 5px solid #fff;
-  display: none;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  z-index: 108;
-  -webkit-box-shadow: 5px 11px 31px -7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 5px 11px 31px -7px rgba(0, 0, 0, 0.75);
-  box-shadow: 5px 11px 31px -7px rgba(0, 0, 0, 0.75);
-}
-
-#contact-us i {
-  color: #fff;
-  margin: 0;
-  position: relative;
-  left: 11px;
-  top: 11px;
-  font-size: 18px;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#contact-us:hover {
-  background: #fff;
-}
-
-#contact-us:hover i {
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 18px;
-}
-
-/* CONTACT FORM */
-
-#contact-area {
-	display: none;
-	width: 600px;
-	margin: 0 auto;
-  padding: 2em;
-  text-align: center;
-  left: 33%;
-  top: 30%;
-  position: fixed;
-  z-index: 100;
-  background: #000;
-	color: #fff;
-}
-
-#contact-area input, #contact-area select {
-	padding: 5px;
-	width: 250px;
-	font-family: Helvetica, sans-serif;
-	font-size: 1.4em;
-	margin: 0px 0px 10px 0px;
-	color: #000;
-}
-
-#contact-area textarea {
-	height: 90px;
-	padding: 5px;
-	width: 500px;
-	font-family: Helvetica, sans-serif;
-	font-size: 1.4em;
-	margin: 0 auto;
-	color: #000;
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-	color: #000;
-}
-
-#contact-area input.submit-button {
-	width: 200px;
-	margin: 0 auto;
-	color: #fff;
-  background: #000;
-}
-
 
 /** SPLIT PANELS **/
 
@@ -741,22 +661,6 @@ h1 {
   100% {
     fill:#FFFFFF;
   }
-}
-
-.headerFadeAnim {
-  -webkit-animation: headerFade 2s;
-}
-
-.logoFadeAnim {
-  -webkit-animation: logoFade 1.5s;
-}
-
-.logoFade2Anim {
-  -webkit-animation: logoFade2 1.5s;
-}
-
-.logoFade3Anim {
-  -webkit-animation: logoFade3 1.5s;
 }
 
 /**SECTION 1 **/
